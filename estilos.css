@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+h1 {
+    color: #444;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+/* Formulario */
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 1rem;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Letras usadas */
+p:last-of-type {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Enlace para reiniciar */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
